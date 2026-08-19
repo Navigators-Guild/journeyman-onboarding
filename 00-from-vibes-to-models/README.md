@@ -1,6 +1,6 @@
 # Phase 0: From Vibes to Models
 
-**Status:** curriculum outline
+**Status:** curriculum outline; first chapter drafted
 
 **Boundary introduced:** claim → repository evidence → explicit model → bounded change
 
@@ -16,7 +16,7 @@ Direct an agent to investigate a repository, separate facts from assumptions, ex
 
 | Module | System principle | Direction to the agent | Required evidence |
 |---|---|---|---|
-| **0.1 The Repository Is Evidence** | Plans must begin with the system that exists, not the system imagined in the prompt. | Inspect relevant files, manifests, commands, tests, Git state, and local instructions. Report facts with paths, assumptions, unknowns, and untouched areas before proposing edits. | A repository map whose key claims can be checked directly against files and command output. |
+| **[0.1 The Repository Is Evidence](01-the-repository-is-evidence.md)** | Plans must begin with the system that exists, not the system imagined in the prompt. | Inspect relevant files, manifests, commands, tests, Git state, and local instructions. Report facts with paths, assumptions, unknowns, and untouched areas before proposing edits. | A repository map whose key claims can be checked directly against files and command output. |
 | **0.2 Behavior Before Implementation** | A request is ready when observable success, failure, constraints, and non-goals are clear enough to disagree about. | Rewrite the request as acceptance examples and boundary cases. Ask only questions whose answers would materially change the design. | A behavior contract with at least one happy path, rejection path, edge case, and explicit non-goal. |
 | **0.3 Models, Invariants, and Failure Paths** | Reliable direction names the parts, state, boundaries, events, and rules that must remain true. | Model the relevant state and interactions before choosing an implementation. Identify hidden assumptions and rank failure paths by impact and likelihood. | A compact system model, invariant list, and failure table connected to planned checks. |
 | **0.4 Changes as Falsifiable Hypotheses** | “This change solves the problem” is a hypothesis, not a conclusion. | Propose the smallest change that could satisfy the contract. For each important claim, name a check that could prove it false; then implement, inspect, and reconcile results. | A reviewed diff, targeted and broader check results, limitations, and a clear accept/revise/revert decision. |

@@ -121,9 +121,9 @@ Learn task graphs, agent roles, permission boundaries, isolated parallel work, i
 
 Take an independently chosen vibecoded project and harden it into a system whose important claims are supported by inspectable evidence. Agents remain available throughout the assessment. Direction, judgment, verification, and recovery are the skills being evaluated.
 
-## The Shared Practice System
+## [The Shared Practice System](practice-system/README.md)
 
-The guided work will use an intentionally vibecoded application that looks convincing but is brittle beneath the surface. It will contain realistic weaknesses such as tangled responsibilities, weak validation, accidental invalid states, fragile persistence, shallow tests, unsafe configuration, race conditions, and poor operational visibility.
+The guided work will use **Waystation**, an intentionally vibecoded equipment-lending application that looks convincing but is brittle beneath the surface. It will contain realistic weaknesses such as tangled responsibilities, weak validation, accidental invalid states, fragile persistence, shallow tests, unsafe configuration, race conditions, and poor operational visibility. Its domain, safety boundary, failure curriculum, and delivery gates are defined in the [shared-practice-system design](practice-system/DESIGN.md).
 
 You will not throw it away and ask for a clean rewrite. You will direct an agent to map it, stabilize it, and improve it in bounded steps. Each phase will introduce a principle at the moment the system creates a need for it. You will then apply the same principle to one of your own projects so the lesson transfers beyond the shared exercise.
 
@@ -157,6 +157,6 @@ The goal is not to remove the human from development. It is to put human systems
 
 ## Project Status
 
-This repository is at the curriculum-design stage. The course manifesto, researched phase outlines, chapter template, and initial evidence review are present. The shared practice system, full chapters, learner materials, assessment instruments, and pilot validation remain to be developed in reviewable increments.
+This repository is at the curriculum-design and early-authoring stage. The course manifesto, researched phase outlines, chapter template, initial evidence review, Waystation system design, and first Phase 0 chapter are present. The Waystation implementation, remaining chapters, learner materials, assessment instruments, and pilot validation remain to be developed in reviewable increments.
 
 The manifesto is the contract: teach the principle, show what to tell the agent, and require evidence that the result holds up.
