@@ -79,45 +79,45 @@ Every chapter follows the same learning loop:
 7. **Try to break it.** Use adversarial cases, fault injection, or review to challenge the happy path.
 8. **Preserve the evidence.** Record decisions, results, limitations, and the next action.
 
-The reusable structure for authors and contributors lives in [CHAPTER_TEMPLATE.md](CHAPTER_TEMPLATE.md).
+The reusable structure for authors and contributors lives in [CHAPTER_TEMPLATE.md](CHAPTER_TEMPLATE.md). The evidence review and its limitations live in [RESEARCH.md](RESEARCH.md).
 
 ## Course Map
 
 The precise chapter list will evolve as the course is researched and piloted. The learning progression is organized around expanding system boundaries.
 
-### Phase 0: From Vibes to Models
+### [Phase 0: From Vibes to Models](00-from-vibes-to-models/README.md)
 
 Move from “it seems to work” to a concrete model of behavior, constraints, assumptions, and evidence. Learn to make the agent inspect before editing and distinguish repository facts from guesses.
 
-### Phase 1: How Programs Hold Together
+### [Phase 1: How Programs Hold Together](01-how-programs-hold-together/README.md)
 
 Learn state, types, invariants, control flow, functions, errors, and data structures as design tools. Direct the agent to make valid behavior clear and invalid behavior difficult to express.
 
-### Phase 2: How Codebases Hold Together
+### [Phase 2: How Codebases Hold Together](02-how-codebases-hold-together/README.md)
 
 Learn modules, interfaces, dependencies, configuration, architecture, and refactoring. Direct changes that preserve clear ownership and keep unrelated concerns from becoming tangled.
 
-### Phase 3: How Data Survives
+### [Phase 3: How Data Survives](03-how-data-survives/README.md)
 
 Learn persistence, schemas, migrations, transactions, atomicity, caching, and recovery. Decide what the source of truth is and how the system protects it when work is interrupted.
 
-### Phase 4: How Systems Communicate and Fail
+### [Phase 4: How Systems Communicate and Fail](04-how-systems-communicate-and-fail/README.md)
 
 Learn APIs, networks, timeouts, retries, idempotency, concurrency, queues, and partial failure. Replace optimistic assumptions with explicit contracts and bounded recovery behavior.
 
-### Phase 5: How Changes Stay Safe
+### [Phase 5: How Changes Stay Safe](05-how-changes-stay-safe/README.md)
 
 Learn unit, integration, property, fuzz, and mutation testing; continuous integration; compatibility; review; releases; and rollback. Match each verification method to the claim it can actually support.
 
-### Phase 6: How Software Stays Alive
+### [Phase 6: How Software Stays Alive](06-how-software-stays-alive/README.md)
 
 Learn threat modeling, authorization, secrets, agent and tool security, deployment, observability, service objectives, incident response, and postmortems. Build software that can be understood and recovered after it leaves the development session.
 
-### Phase 7: Directing Work at Scale
+### [Phase 7: Directing Work at Scale](07-directing-work-at-scale/README.md)
 
 Learn task graphs, agent roles, permission boundaries, isolated parallel work, integration, design review, handoffs, maintenance, and mentorship. Increase leverage without increasing the blast radius blindly.
 
-### Phase 8: Proving Reliability
+### [Phase 8: Proving Reliability](08-proving-reliability/README.md)
 
 Take an independently chosen vibecoded project and harden it into a system whose important claims are supported by inspectable evidence. Agents remain available throughout the assessment. Direction, judgment, verification, and recovery are the skills being evaluated.
 
@@ -157,6 +157,6 @@ The goal is not to remove the human from development. It is to put human systems
 
 ## Project Status
 
-This repository is at the curriculum-design stage. The course map, shared practice system, research basis, individual chapters, and assessment materials will be developed in reviewable increments and revised through learner feedback and adversarial review.
+This repository is at the curriculum-design stage. The course manifesto, researched phase outlines, chapter template, and initial evidence review are present. The shared practice system, full chapters, learner materials, assessment instruments, and pilot validation remain to be developed in reviewable increments.
 
 The manifesto is the contract: teach the principle, show what to tell the agent, and require evidence that the result holds up.
